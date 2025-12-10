@@ -683,3 +683,8 @@
 {"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-10 13:30:01"}
 {"level":"info","message":"🗄️ Database: Connected","timestamp":"2025-12-10 13:30:01"}
 {"level":"info","message":"🗃️ Cache: Connected","timestamp":"2025-12-10 13:30:01"}
+{"level":"info","message":"Starting graceful shutdown...","timestamp":"2025-12-10 14:37:38"}
+{"level":"info","message":"HTTP server closed.","timestamp":"2025-12-10 14:37:38"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-12-10 14:37:38"}
+{"level":"info","message":"MongoDB connection closed.","timestamp":"2025-12-10 14:37:38"}
+{"level":"warn","message":"Redis connection ended","timestamp":"2025-12-10 14:37:38"}

@@ -14,11 +14,12 @@ env:
 jobs:
   lint-and-test:
     runs-on: ubuntu-latest
-
+    
+    # ✅ RE-ADD DEFAULTS (files are in backend/)
     defaults:
       run:
-        working-directory: backend   # 👈 IMPORTANT FIX
-
+        working-directory: backend
+    
     services:
       redis:
         image: redis:7-alpine
@@ -34,19 +35,28 @@ jobs:
       - name: 📥 Checkout code
         uses: actions/checkout@v4
 
-      - name: 🔍 Debug
+      - name: 🔍 Debug - Verify Structure
         run: |
           echo "Current directory: $(pwd)"
+          echo ""
+          echo "Files in repository ROOT:"
           ls -la
-          echo "Checking Node files inside backend/"
-          ls -la backend
+          echo ""
+          echo "Files in backend folder:"
+          ls -la backend/
+          echo ""
+          echo "Checking key files in backend/:"
+          [ -f "backend/package.json" ] && echo "✅ package.json exists in backend/" || echo "❌ package.json missing"
+          [ -f "backend/package-lock.json" ] && echo "✅ package-lock.json exists in backend/" || echo "❌ package-lock.json missing"
+          [ -f "backend/app.js" ] && echo "✅ app.js exists in backend/" || echo "❌ app.js missing"
 
       - name: 🟢 Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: 'npm'
-          cache-dependency-path: backend/package-lock.json   # 👈 FIX
+          # ✅ CORRECT: cache path matches backend/
+          cache-dependency-path: 'backend/package-lock.json'
 
       - name: 📦 Install dependencies
         run: npm ci
@@ -55,23 +65,35 @@ jobs:
           JWT_SECRET: ${{ secrets.JWT_SECRET || 'test-jwt-secret-for-ci' }}
           MONGODB_URI: ${{ secrets.MONGODB_URI_TEST || 'mongodb://localhost:27017/test' }}
 
-      - name: 🔍 Lint
+      - name: 🔍 Run Linter
         run: npm run lint
+        env:
+          REDIS_URL: redis://localhost:6379
+          JWT_SECRET: ${{ secrets.JWT_SECRET || 'test-jwt-secret-for-ci' }}
+          MONGODB_URI: ${{ secrets.MONGODB_URI_TEST || 'mongodb://localhost:27017/test' }}
 
-      - name: 🧪 Tests
+      - name: 🧪 Run Tests
         run: npm run test:ci
+        env:
+          REDIS_URL: redis://localhost:6379
+          JWT_SECRET: ${{ secrets.JWT_SECRET || 'test-jwt-secret-for-ci' }}
+          MONGODB_URI: ${{ secrets.MONGODB_URI_TEST || 'mongodb://localhost:27017/test' }}
 
-      - name: 📊 Summary
+      - name: 📊 Test Summary
         if: always()
-        run: echo "Workflow complete."
+        run: |
+          echo "=== Test Execution Summary ==="
+          echo "✅ GitHub Actions workflow completed"
+          echo "Check individual steps above for details"
 
   deploy:
     runs-on: ubuntu-latest
     needs: lint-and-test
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-
+    
     steps:
-      - uses: actions/checkout@v4
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
 
       - name: 🚀 Deploy to Render
         uses: johnbeynon/render-deploy-action@v0.0.8
