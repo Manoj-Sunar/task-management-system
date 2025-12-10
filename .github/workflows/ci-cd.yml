@@ -15,7 +15,6 @@ jobs:
   lint-and-test:
     runs-on: ubuntu-latest
     
-    # ✅ CORRECT: defaults must be indented under job
     defaults:
       run:
         working-directory: backend
@@ -37,22 +36,23 @@ jobs:
 
       - name: 🔍 Debug - Verify Structure
         run: |
+          echo "=== BEFORE changing directory ==="
+          echo "Root directory: $(pwd)"
+          echo "Backend folder in root: $([ -d "backend" ] && echo "✅ YES" || echo "❌ NO")"
+          echo ""
+          ls -la
+          echo ""
+          echo "=== INSIDE backend folder ==="
+          cd backend
           echo "Current directory: $(pwd)"
-          echo ""
-          echo "Backend folder exists: $([ -d "backend" ] && echo "✅ YES" || echo "❌ NO")"
-          echo ""
-          echo "Files in backend folder:"
-          ls -la backend/
-          echo ""
-          echo "package.json exists: $([ -f "backend/package.json" ] && echo "✅ YES" || echo "❌ NO")"
-          echo "package-lock.json exists: $([ -f "backend/package-lock.json" ] && echo "✅ YES" || echo "❌ NO")"
+          echo "Files here:"
+          ls -la
 
       - name: 🟢 Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: 'npm'
-          # ✅ CORRECT: cache path must match working-directory
           cache-dependency-path: 'backend/package-lock.json'
 
       - name: 📦 Install dependencies
