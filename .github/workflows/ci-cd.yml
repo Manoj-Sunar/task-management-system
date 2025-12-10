@@ -15,10 +15,9 @@ jobs:
   lint-and-test:
     runs-on: ubuntu-latest
     
-    # ✅ RE-ADD DEFAULTS (files are in backend/)
     defaults:
       run:
-        working-directory: /backend
+        working-directory: backend  # ✅ CORRECT: relative path
     
     services:
       redis:
@@ -46,16 +45,15 @@ jobs:
           ls -la backend/
           echo ""
           echo "Checking key files in backend/:"
-          [ -f "backend/package.json" ] && echo "✅ package.json exists in backend/" || echo "❌ package.json missing"
-          [ -f "backend/package-lock.json" ] && echo "✅ package-lock.json exists in backend/" || echo "❌ package-lock.json missing"
-          [ -f "backend/app.js" ] && echo "✅ app.js exists in backend/" || echo "❌ app.js missing"
+          [ -f "package.json" ] && echo "✅ package.json exists" || echo "❌ package.json missing"
+          [ -f "package-lock.json" ] && echo "✅ package-lock.json exists" || echo "❌ package-lock.json missing"
+          [ -f "app.js" ] && echo "✅ app.js exists" || echo "❌ app.js missing"
 
       - name: 🟢 Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: 'npm'
-          # ✅ CORRECT: cache path matches backend/
           cache-dependency-path: 'backend/package-lock.json'
 
       - name: 📦 Install dependencies
@@ -83,7 +81,7 @@ jobs:
         if: always()
         run: |
           echo "=== Test Execution Summary ==="
-          echo "✅ GitHub Actions workflow completed"
+          echo "Workflow status: ${{ job.status }}"
           echo "Check individual steps above for details"
 
   deploy:
