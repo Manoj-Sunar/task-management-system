@@ -17,7 +17,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: backend
+        working-directory: backend  # all commands run in backend/
 
     services:
       redis:
@@ -41,6 +41,7 @@ jobs:
           cache: 'npm'
           cache-dependency-path: backend/package-lock.json
 
+      # Install dependencies including devDependencies (eslint-plugin-vitest)
       - name: 📦 Install dependencies
         run: npm ci
 
@@ -50,7 +51,7 @@ jobs:
       - name: 🧪 Run Vitest
         run: npm run test:ci
 
-      - name: 📊 Summary
+      - name: 📊 CI Summary
         if: always()
         run: echo "CI Completed ✔"
 
@@ -58,6 +59,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: lint-and-test
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+
+    defaults:
+      run:
+        working-directory: backend  # deploy from backend folder
 
     steps:
       - name: 📥 Checkout code
