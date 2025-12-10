@@ -16,6 +16,9 @@ env:
 
 jobs:
   lint-and-test:
+    defaults:
+      run:
+        working-directory:backend
     runs-on: ubuntu-latest
     services:
       redis:
