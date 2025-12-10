@@ -15,28 +15,24 @@ jobs:
   lint-and-test:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: backend
+
     services:
       redis:
         image: redis:7-alpine
+        ports:
+          - 6379:6379
         options: >-
           --health-cmd "redis-cli ping"
           --health-interval 10s
           --health-timeout 5s
           --health-retries 5
-        ports:
-          - 6379:6379
 
     steps:
       - name: 📥 Checkout code
         uses: actions/checkout@v4
-
-      - name: 🔍 Debug - Verify Structure
-        run: |
-          echo "Current directory: $(pwd)"
-          echo "--- Root files ---"
-          ls -la
-          echo "--- Backend files ---"
-          ls -la backend
 
       - name: 🟢 Setup Node.js
         uses: actions/setup-node@v4
@@ -46,34 +42,17 @@ jobs:
           cache-dependency-path: backend/package-lock.json
 
       - name: 📦 Install dependencies
-        working-directory: backend
         run: npm ci
-        env:
-          REDIS_URL: redis://localhost:6379
-          JWT_SECRET: ${{ secrets.JWT_SECRET || 'test-jwt-secret-for-ci' }}
-          MONGODB_URI: ${{ secrets.MONGODB_URI_TEST || 'mongodb://localhost:27017/test' }}
 
       - name: 🔍 Run Linter
-        working-directory: backend
         run: npm run lint
-        env:
-          REDIS_URL: redis://localhost:6379
-          JWT_SECRET: ${{ secrets.JWT_SECRET || 'test-jwt-secret-for-ci' }}
-          MONGODB_URI: ${{ secrets.MONGODB_URI_TEST || 'mongodb://localhost:27017/test' }}
 
-      - name: 🧪 Run Tests
-        working-directory: backend
+      - name: 🧪 Run Vitest
         run: npm run test:ci
-        env:
-          REDIS_URL: redis://localhost:6379
-          JWT_SECRET: ${{ secrets.JWT_SECRET || 'test-jwt-secret-for-ci' }}
-          MONGODB_URI: ${{ secrets.MONGODB_URI_TEST || 'mongodb://localhost:27017/test' }}
 
-      - name: 📊 Test Summary
+      - name: 📊 Summary
         if: always()
-        run: |
-          echo "=== Test Execution Summary ==="
-          echo "Workflow finished"
+        run: echo "CI Completed ✔"
 
   deploy:
     runs-on: ubuntu-latest
