@@ -1,0 +1,43 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: task_management_redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - task_network
+    command: redis-server --appendonly yes
+
+  app:
+    build: .
+    container_name: task_management_app
+    restart: unless-stopped
+    depends_on:
+      - redis
+    env_file:
+      - .env
+    environment:
+      - NODE_ENV=${NODE_ENV:-development}
+      - PORT=4000
+      - REDIS_URL=redis://redis:6379
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./logs:/app/logs
+      - ./uploads:/app/uploads
+    networks:
+      - task_network
+    command: node app.js
+
+networks:
+  task_network:
+    driver: bridge
+
+volumes:
+  redis_data:

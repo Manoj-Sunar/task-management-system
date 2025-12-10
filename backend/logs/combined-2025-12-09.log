@@ -1,0 +1,357 @@
+{"level":"info","message":"MongoDB reconnected","timestamp":"2025-12-09 07:50:02"}
+{"level":"info","message":"MongoDB reconnected","timestamp":"2025-12-09 07:50:02"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-12-09 07:50:12"}
+{"level":"info","message":"MongoDB reconnected","timestamp":"2025-12-09 07:50:12"}
+{"level":"info","message":"MongoDB reconnected","timestamp":"2025-12-09 08:48:31"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-12-09 08:48:41"}
+{"level":"info","message":"MongoDB reconnected","timestamp":"2025-12-09 08:48:42"}
+{"error":"jwt expired","level":"error","message":"Token verification failed","name":"TokenExpiredError","timestamp":"2025-12-09 10:37:47"}
+{"level":"info","message":"MongoDB reconnected","timestamp":"2025-12-09 11:16:36"}
+{"level":"info","message":"MongoDB reconnected","timestamp":"2025-12-09 11:16:36"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-12-09 11:16:46"}
+{"level":"info","message":"MongoDB reconnected","timestamp":"2025-12-09 11:16:46"}
+{"level":"info","message":"MongoDB reconnected","timestamp":"2025-12-09 12:31:01"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-12-09 12:31:11"}
+{"level":"info","message":"MongoDB reconnected","timestamp":"2025-12-09 12:31:11"}
+{"level":"info","message":"Starting graceful shutdown...","timestamp":"2025-12-09 14:56:26"}
+{"level":"info","message":"HTTP server closed.","timestamp":"2025-12-09 14:56:26"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-12-09 14:56:26"}
+{"level":"info","message":"MongoDB connection closed.","timestamp":"2025-12-09 14:56:26"}
+{"level":"warn","message":"Redis connection ended","timestamp":"2025-12-09 14:56:26"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-00.2dkrtvq.mongodb.net","timestamp":"2025-12-09 20:41:58"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:41:58"}
+{"level":"info","message":"Redis reconnecting... (attempt 0)","timestamp":"2025-12-09 20:41:58"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:41:58"}
+{"level":"info","message":"Redis reconnecting... (attempt 1)","timestamp":"2025-12-09 20:41:58"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:41:58"}
+{"level":"info","message":"Redis reconnecting... (attempt 2)","timestamp":"2025-12-09 20:41:58"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:41:58"}
+{"level":"info","message":"Redis reconnecting... (attempt 3)","timestamp":"2025-12-09 20:41:58"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:41:58"}
+{"level":"info","message":"Redis reconnecting... (attempt 4)","timestamp":"2025-12-09 20:41:59"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:41:59"}
+{"level":"info","message":"Redis reconnecting... (attempt 5)","timestamp":"2025-12-09 20:41:59"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:41:59"}
+{"level":"info","message":"Redis reconnecting... (attempt 6)","timestamp":"2025-12-09 20:42:00"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:42:00"}
+{"level":"info","message":"Redis reconnecting... (attempt 7)","timestamp":"2025-12-09 20:42:01"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:42:01"}
+{"level":"info","message":"Redis reconnecting... (attempt 8)","timestamp":"2025-12-09 20:42:01"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:42:01"}
+{"level":"info","message":"Redis reconnecting... (attempt 9)","timestamp":"2025-12-09 20:42:02"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:42:02"}
+{"level":"info","message":"Redis reconnecting... (attempt 10)","timestamp":"2025-12-09 20:42:03"}
+{"level":"warn","message":"Too many Redis reconnection attempts","timestamp":"2025-12-09 20:42:03"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:42:03"}
+{"level":"error","message":"Redis connection failed: Too many retries","originalError":{},"socketError":{"code":"ECONNREFUSED"},"stack":"Error: Too many retries\n    at #shouldReconnect (E:\\task management\\backend\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js:138:20)\n    at #connect (E:\\task management\\backend\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js:178:54)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Class.connect (E:\\task management\\backend\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:556:9)\n    at async CacheService.connect (file:///E:/task%20management/backend/src/config/cache.js:52:13)\n    at async startServer (file:///E:/task%20management/backend/app.js:203:13)","timestamp":"2025-12-09 20:42:03"}
+{"level":"warn","message":"Cache connection failed, continuing without cache:","timestamp":"2025-12-09 20:42:03"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 20:42:03"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 20:42:03"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 20:42:03"}
+{"level":"info","message":"🗃️  Cache: Disconnected","timestamp":"2025-12-09 20:42:03"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-01.2dkrtvq.mongodb.net","timestamp":"2025-12-09 20:44:13"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:13"}
+{"level":"info","message":"Redis reconnecting... (attempt 0)","timestamp":"2025-12-09 20:44:13"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:13"}
+{"level":"info","message":"Redis reconnecting... (attempt 1)","timestamp":"2025-12-09 20:44:13"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:13"}
+{"level":"info","message":"Redis reconnecting... (attempt 2)","timestamp":"2025-12-09 20:44:13"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:13"}
+{"level":"info","message":"Redis reconnecting... (attempt 3)","timestamp":"2025-12-09 20:44:14"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:14"}
+{"level":"info","message":"Redis reconnecting... (attempt 4)","timestamp":"2025-12-09 20:44:14"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:14"}
+{"level":"info","message":"Redis reconnecting... (attempt 5)","timestamp":"2025-12-09 20:44:14"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:14"}
+{"level":"info","message":"Redis reconnecting... (attempt 6)","timestamp":"2025-12-09 20:44:15"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:15"}
+{"level":"info","message":"Redis reconnecting... (attempt 7)","timestamp":"2025-12-09 20:44:16"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:16"}
+{"level":"info","message":"Redis reconnecting... (attempt 8)","timestamp":"2025-12-09 20:44:17"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:17"}
+{"level":"info","message":"Redis reconnecting... (attempt 9)","timestamp":"2025-12-09 20:44:18"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:18"}
+{"level":"info","message":"Redis reconnecting... (attempt 10)","timestamp":"2025-12-09 20:44:19"}
+{"level":"warn","message":"Too many Redis reconnection attempts","timestamp":"2025-12-09 20:44:19"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:19"}
+{"level":"error","message":"Redis connection failed: Too many retries","originalError":{},"socketError":{"code":"ECONNREFUSED"},"stack":"Error: Too many retries\n    at #shouldReconnect (E:\\task management\\backend\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js:138:20)\n    at #connect (E:\\task management\\backend\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js:178:54)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Class.connect (E:\\task management\\backend\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:556:9)\n    at async CacheService.connect (file:///E:/task%20management/backend/src/config/cache.js:52:13)\n    at async startServer (file:///E:/task%20management/backend/app.js:203:13)","timestamp":"2025-12-09 20:44:19"}
+{"level":"warn","message":"Cache connection failed, continuing without cache:","timestamp":"2025-12-09 20:44:19"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 20:44:19"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 20:44:19"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 20:44:19"}
+{"level":"info","message":"🗃️  Cache: Disconnected","timestamp":"2025-12-09 20:44:19"}
+{"level":"info","message":"Starting graceful shutdown...","timestamp":"2025-12-09 20:44:43"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-00.2dkrtvq.mongodb.net","timestamp":"2025-12-09 20:44:49"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:49"}
+{"level":"info","message":"Redis reconnecting... (attempt 0)","timestamp":"2025-12-09 20:44:49"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:49"}
+{"level":"info","message":"Redis reconnecting... (attempt 1)","timestamp":"2025-12-09 20:44:49"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:49"}
+{"level":"info","message":"Redis reconnecting... (attempt 2)","timestamp":"2025-12-09 20:44:49"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:49"}
+{"level":"info","message":"Redis reconnecting... (attempt 3)","timestamp":"2025-12-09 20:44:50"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:50"}
+{"level":"info","message":"Redis reconnecting... (attempt 4)","timestamp":"2025-12-09 20:44:50"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:50"}
+{"level":"info","message":"Redis reconnecting... (attempt 5)","timestamp":"2025-12-09 20:44:51"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:51"}
+{"level":"info","message":"Redis reconnecting... (attempt 6)","timestamp":"2025-12-09 20:44:51"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:51"}
+{"level":"info","message":"Redis reconnecting... (attempt 7)","timestamp":"2025-12-09 20:44:52"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:52"}
+{"level":"info","message":"Redis reconnecting... (attempt 8)","timestamp":"2025-12-09 20:44:53"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:53"}
+{"level":"info","message":"Redis reconnecting... (attempt 9)","timestamp":"2025-12-09 20:44:54"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:54"}
+{"level":"info","message":"Redis reconnecting... (attempt 10)","timestamp":"2025-12-09 20:44:55"}
+{"level":"warn","message":"Too many Redis reconnection attempts","timestamp":"2025-12-09 20:44:55"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-09 20:44:55"}
+{"level":"error","message":"Redis connection failed: Too many retries","originalError":{},"socketError":{"code":"ECONNREFUSED"},"stack":"Error: Too many retries\n    at #shouldReconnect (E:\\task management\\backend\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js:138:20)\n    at #connect (E:\\task management\\backend\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js:178:54)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Class.connect (E:\\task management\\backend\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:556:9)\n    at async CacheService.connect (file:///E:/task%20management/backend/src/config/cache.js:52:13)\n    at async startServer (file:///E:/task%20management/backend/app.js:203:13)","timestamp":"2025-12-09 20:44:55"}
+{"level":"warn","message":"Cache connection failed, continuing without cache:","timestamp":"2025-12-09 20:44:55"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 20:44:55"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 20:44:55"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 20:44:55"}
+{"level":"info","message":"🗃️  Cache: Disconnected","timestamp":"2025-12-09 20:44:55"}
+{"level":"info","message":"Starting graceful shutdown...","timestamp":"2025-12-09 20:45:03"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-01.2dkrtvq.mongodb.net","timestamp":"2025-12-09 20:50:51"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 20:50:51"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 20:50:51"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 20:50:51"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 20:50:51"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 20:50:51"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-00.2dkrtvq.mongodb.net","timestamp":"2025-12-09 20:53:44"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 20:53:44"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 20:53:44"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 20:53:44"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 20:53:44"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 20:53:44"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-02.2dkrtvq.mongodb.net","timestamp":"2025-12-09 21:26:33"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 21:26:33"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 21:26:33"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 21:26:33"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 21:26:33"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 21:26:33"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-01.2dkrtvq.mongodb.net","timestamp":"2025-12-09 21:26:47"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 21:26:47"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 21:26:47"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 21:26:47"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 21:26:47"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 21:26:47"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-02.2dkrtvq.mongodb.net","timestamp":"2025-12-09 21:47:33"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 21:47:33"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 21:47:33"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 21:47:33"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 21:47:33"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 21:47:33"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-02.2dkrtvq.mongodb.net","timestamp":"2025-12-09 21:47:50"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 21:47:50"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 21:47:50"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 21:47:50"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 21:47:50"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 21:47:50"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-02.2dkrtvq.mongodb.net","timestamp":"2025-12-09 21:49:59"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 21:49:59"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 21:49:59"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 21:49:59"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 21:49:59"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 21:49:59"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-01.2dkrtvq.mongodb.net","timestamp":"2025-12-09 21:51:56"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 21:51:56"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 21:51:56"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 21:51:56"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 21:51:56"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 21:51:56"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-02.2dkrtvq.mongodb.net","timestamp":"2025-12-09 21:53:10"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 21:53:10"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 21:53:10"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 21:53:10"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 21:53:10"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 21:53:10"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-00.2dkrtvq.mongodb.net","timestamp":"2025-12-09 21:53:21"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 21:53:21"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 21:53:21"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 21:53:21"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 21:53:21"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 21:53:21"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-02.2dkrtvq.mongodb.net","timestamp":"2025-12-09 21:58:32"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 21:58:32"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 21:58:32"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 21:58:32"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 21:58:32"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 21:58:32"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-02.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:01:19"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:01:19"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 22:01:19"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:01:19"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:01:19"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:01:19"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-00.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:03:22"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:03:22"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 22:03:22"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:03:22"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:03:22"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:03:22"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-01.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:03:56"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:03:56"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 22:03:56"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:03:56"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:03:56"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:03:56"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-00.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:05:17"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:05:17"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 22:05:17"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:05:17"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:05:17"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:05:17"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-02.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:06:21"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:06:21"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 22:06:21"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:06:21"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:06:21"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:06:21"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-01.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:06:21"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:06:21"}
+{"level":"info","message":"🚀 Server running in test mode","timestamp":"2025-12-09 22:06:21"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:06:21"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:06:21"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:06:21"}
+{"level":"error","message":"4000 is already in use","timestamp":"2025-12-09 22:06:21"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Server.<anonymous> (E:/task management/backend/app.js:229:29)\n    at Server.emit (node:events:531:35)\n    at emitErrorNT (node:net:1976:8)\n    at processTicksAndRejections (node:internal/process/task_queues:90:21)","timestamp":"2025-12-09 22:06:21"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-12-09 22:06:21"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-02.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:06:23"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:06:23"}
+{"level":"info","message":"🚀 Server running in test mode","timestamp":"2025-12-09 22:06:23"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:06:23"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:06:23"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:06:23"}
+{"level":"error","message":"4000 is already in use","timestamp":"2025-12-09 22:06:23"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Server.<anonymous> (E:/task management/backend/app.js:229:29)\n    at Server.emit (node:events:531:35)\n    at emitErrorNT (node:net:1976:8)\n    at processTicksAndRejections (node:internal/process/task_queues:90:21)","timestamp":"2025-12-09 22:06:23"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-12-09 22:06:23"}
+{"level":"error","message":"MongoDB connection error: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections","stack":"MongooseError: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections\n    at NativeConnection.createClient (E:\\task management\\backend\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:244:13)\n    at NativeConnection.openUri (E:\\task management\\backend\\node_modules\\mongoose\\lib\\connection.js:1075:34)\n    at Mongoose.connect (E:\\task management\\backend\\node_modules\\mongoose\\lib\\mongoose.js:451:15)\n    at setupTestEnv (E:/task management/backend/tests/setup.test.js:10:20)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at E:/task management/backend/tests/user-auth-test/auth.test.js:8:9","timestamp":"2025-12-09 22:06:23"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Timeout._onTimeout (E:/task management/backend/app.js:174:30)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)","timestamp":"2025-12-09 22:06:24"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Timeout._onTimeout (E:/task management/backend/app.js:174:30)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)","timestamp":"2025-12-09 22:06:25"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Timeout._onTimeout (E:/task management/backend/app.js:174:30)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)","timestamp":"2025-12-09 22:06:26"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Timeout._onTimeout (E:/task management/backend/app.js:174:30)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)","timestamp":"2025-12-09 22:06:27"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Timeout._onTimeout (E:/task management/backend/app.js:174:30)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)","timestamp":"2025-12-09 22:06:28"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Timeout._onTimeout (E:/task management/backend/app.js:174:30)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)","timestamp":"2025-12-09 22:06:29"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Timeout._onTimeout (E:/task management/backend/app.js:174:30)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)","timestamp":"2025-12-09 22:06:30"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Timeout._onTimeout (E:/task management/backend/app.js:174:30)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)","timestamp":"2025-12-09 22:06:31"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Timeout._onTimeout (E:/task management/backend/app.js:174:30)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)","timestamp":"2025-12-09 22:06:32"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-00.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:08:49"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:08:49"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 22:08:49"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:08:49"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:08:49"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:08:49"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-02.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:08:49"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:08:49"}
+{"level":"info","message":"🚀 Server running in test mode","timestamp":"2025-12-09 22:08:49"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:08:49"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:08:49"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:08:49"}
+{"level":"error","message":"4000 is already in use","timestamp":"2025-12-09 22:08:49"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Server.<anonymous> (E:/task management/backend/app.js:229:29)\n    at Server.emit (node:events:531:35)\n    at emitErrorNT (node:net:1976:8)\n    at processTicksAndRejections (node:internal/process/task_queues:90:21)","timestamp":"2025-12-09 22:08:49"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-12-09 22:08:50"}
+{"level":"error","message":"MongoDB connection error: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections","stack":"MongooseError: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections\n    at NativeConnection.createClient (E:\\task management\\backend\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:244:13)\n    at NativeConnection.openUri (E:\\task management\\backend\\node_modules\\mongoose\\lib\\connection.js:1075:34)\n    at Mongoose.connect (E:\\task management\\backend\\node_modules\\mongoose\\lib\\mongoose.js:451:15)\n    at setupTestEnv (E:/task management/backend/tests/setup.test.js:10:20)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at E:/task management/backend/tests/user-auth-test/auth.test.js:8:9","timestamp":"2025-12-09 22:08:50"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Timeout._onTimeout (E:/task management/backend/app.js:174:30)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)","timestamp":"2025-12-09 22:08:51"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Timeout._onTimeout (E:/task management/backend/app.js:174:30)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)","timestamp":"2025-12-09 22:08:52"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Timeout._onTimeout (E:/task management/backend/app.js:174:30)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)","timestamp":"2025-12-09 22:08:53"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Timeout._onTimeout (E:/task management/backend/app.js:174:30)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)","timestamp":"2025-12-09 22:08:54"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Timeout._onTimeout (E:/task management/backend/app.js:174:30)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)","timestamp":"2025-12-09 22:08:55"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Timeout._onTimeout (E:/task management/backend/app.js:174:30)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)","timestamp":"2025-12-09 22:08:56"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Timeout._onTimeout (E:/task management/backend/app.js:174:30)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)","timestamp":"2025-12-09 22:08:57"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Timeout._onTimeout (E:/task management/backend/app.js:174:30)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)","timestamp":"2025-12-09 22:08:58"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Timeout._onTimeout (E:/task management/backend/app.js:174:30)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)","timestamp":"2025-12-09 22:08:59"}
+{"level":"error","message":"Uncaught Exception: process.exit unexpectedly called with \"1\"","stack":"Error: process.exit unexpectedly called with \"1\"\n    at process.exit (file:///E:/task%20management/backend/node_modules/vitest/dist/chunks/startModuleRunner.Iz2V0ESw.js:766:9)\n    at Timeout._onTimeout (E:/task management/backend/app.js:174:30)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)","timestamp":"2025-12-09 22:09:00"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-00.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:12:09"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:12:09"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 22:12:09"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:12:09"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:12:09"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:12:09"}
+{"level":"info","message":"New user registered: manoj@test.com","role":"user","timestamp":"2025-12-09 22:12:09","userId":"69384ddd65dae6838278b09a"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-02.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:16:21"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:16:21"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 22:16:21"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:16:21"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:16:21"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:16:21"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-01.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:16:24"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:16:24"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 22:16:24"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:16:24"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:16:24"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:16:24"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-01.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:16:33"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:16:33"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 22:16:33"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:16:33"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:16:33"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:16:33"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-00.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:16:35"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:16:35"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 22:16:35"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:16:35"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:16:35"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:16:35"}
+{"level":"info","message":"New user registered: manoj@test.com","role":"user","timestamp":"2025-12-09 22:16:41","userId":"69384eed0661543ad9cad03b"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-00.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:17:14"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:17:14"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 22:17:14"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:17:14"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:17:14"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:17:14"}
+{"level":"info","message":"New user registered: manoj@test.com","role":"user","timestamp":"2025-12-09 22:17:15","userId":"69384f0f3236ac43d7bf92d2"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-02.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:18:18"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:18:18"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 22:18:18"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:18:18"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:18:18"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:18:18"}
+{"level":"info","message":"New user registered: manoj@test.com","role":"user","timestamp":"2025-12-09 22:18:18","userId":"69384f4efa6ebb2be909c528"}
+{"level":"info","message":"New user registered: manoj@test.com","role":"user","timestamp":"2025-12-09 22:18:19","userId":"69384f4efa6ebb2be909c532"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-02.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:19:10"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:19:10"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 22:19:10"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:19:10"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:19:10"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:19:10"}
+{"level":"info","message":"New user registered: manoj@test.com","role":"user","timestamp":"2025-12-09 22:19:11","userId":"69384f82c49b7e8f349c45c9"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-00.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:19:20"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:19:20"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 22:19:20"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:19:20"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:19:20"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:19:20"}
+{"level":"info","message":"New user registered: manoj@test.com","role":"user","timestamp":"2025-12-09 22:19:20","userId":"69384f8c66c245d95867c43b"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-01.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:19:31"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:19:31"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 22:19:31"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:19:31"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:19:31"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:19:31"}
+{"level":"info","message":"New user registered: manoj@test.com","role":"user","timestamp":"2025-12-09 22:19:32","userId":"69384f987e4a2f5d20c0a72b"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-00.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:30:21"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:30:21"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 22:30:21"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:30:21"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:30:21"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:30:21"}
+{"level":"info","message":"New user registered: manoj@test.com","role":"user","timestamp":"2025-12-09 22:30:22","userId":"693852227aa0574a4fbd2a3d"}
+{"level":"info","message":"New user registered: suman@gmail.com","role":"user","timestamp":"2025-12-09 22:30:55","userId":"69385243bb837d1ee21c1d02"}
+{"level":"info","message":"New user registered: man@gmail.com","role":"admin","timestamp":"2025-12-09 22:31:28","userId":"69385264bb837d1ee21c1d05"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-01.2dkrtvq.mongodb.net","timestamp":"2025-12-09 22:31:51"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-09 22:31:51"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-09 22:31:51"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-09 22:31:51"}
+{"level":"info","message":"🗄️  Database: Connected","timestamp":"2025-12-09 22:31:51"}
+{"level":"info","message":"🗃️  Cache: Connected","timestamp":"2025-12-09 22:31:51"}
+{"level":"info","message":"New user registered: manoj@test.com","role":"user","timestamp":"2025-12-09 22:31:52","userId":"6938527ccaec22858deb78fb"}
+{"level":"info","message":"MongoDB reconnected","timestamp":"2025-12-09 23:40:55"}
+{"level":"info","message":"MongoDB reconnected","timestamp":"2025-12-09 23:40:55"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-12-09 23:42:08"}
+{"level":"info","message":"MongoDB reconnected","timestamp":"2025-12-09 23:42:10"}
+{"level":"info","message":"MongoDB reconnected","timestamp":"2025-12-09 23:42:48"}
+{"level":"info","message":"MongoDB reconnected","timestamp":"2025-12-09 23:42:51"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-12-09 23:42:58"}
+{"level":"info","message":"MongoDB reconnected","timestamp":"2025-12-09 23:43:01"}

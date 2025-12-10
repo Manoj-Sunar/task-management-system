@@ -1,0 +1,28 @@
+# render.yaml
+services:
+  - type: web
+    name: task-management-api
+    env: node
+    region: oregon
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: REDIS_URL
+        sync: false
+      - key: SECURITY_CORS_ORIGINS
+        value: https://your-frontend-domain.com
+    autoDeploy: true
+
+  - type: redis
+    name: task-management-redis
+    ipAllowList: []
+    plan: free
