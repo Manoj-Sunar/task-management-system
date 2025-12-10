@@ -628,3 +628,17 @@
 {"level":"info","message":"🗄️ Database: Connected","timestamp":"2025-12-10 15:52:59"}
 {"level":"info","message":"🗃️ Cache: Not Connected","timestamp":"2025-12-10 15:52:59"}
 {"level":"info","message":"Starting graceful shutdown...","timestamp":"2025-12-10 15:53:14"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-01.2dkrtvq.mongodb.net","timestamp":"2025-12-10 10:11:48"}
+{"level":"info","message":"🗄️ Database connected successfully","timestamp":"2025-12-10 10:11:48"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-10 10:11:48"}
+{"level":"info","message":"🗃️ Cache connected successfully","timestamp":"2025-12-10 10:11:48"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-10 10:11:48"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-10 10:11:48"}
+{"level":"info","message":"🗄️ Database: Connected","timestamp":"2025-12-10 10:11:48"}
+{"level":"info","message":"🗃️ Cache: Connected","timestamp":"2025-12-10 10:11:48"}
+{"level":"info","message":"User logged in: man@gmail.com","role":"admin","timestamp":"2025-12-10 10:12:30","userId":"69385264bb837d1ee21c1d05"}
+{"level":"info","message":"Starting graceful shutdown...","timestamp":"2025-12-10 10:22:23"}
+{"level":"info","message":"HTTP server closed.","timestamp":"2025-12-10 10:22:23"}
+{"level":"warn","message":"MongoDB disconnected","timestamp":"2025-12-10 10:22:23"}
+{"level":"info","message":"MongoDB connection closed.","timestamp":"2025-12-10 10:22:23"}
+{"level":"warn","message":"Redis connection ended","timestamp":"2025-12-10 10:22:23"}
