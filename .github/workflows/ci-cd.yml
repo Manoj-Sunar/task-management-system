@@ -15,9 +15,10 @@ jobs:
   lint-and-test:
     runs-on: ubuntu-latest
     
-    defaults:
-      run:
-        working-directory: backend
+    # REMOVE THIS ENTIRE DEFAULTS SECTION
+    # defaults:
+    #   run:
+    #     working-directory: backend
     
     services:
       redis:
@@ -36,24 +37,23 @@ jobs:
 
       - name: 🔍 Debug - Verify Structure
         run: |
-          echo "=== BEFORE changing directory ==="
-          echo "Root directory: $(pwd)"
-          echo "Backend folder in root: $([ -d "backend" ] && echo "✅ YES" || echo "❌ NO")"
-          echo ""
-          ls -la
-          echo ""
-          echo "=== INSIDE backend folder ==="
-          cd backend
           echo "Current directory: $(pwd)"
-          echo "Files here:"
+          echo ""
+          echo "Files in repository:"
           ls -la
+          echo ""
+          echo "Checking key files:"
+          [ -f "package.json" ] && echo "✅ package.json exists" || echo "❌ package.json missing"
+          [ -f "package-lock.json" ] && echo "✅ package-lock.json exists" || echo "❌ package-lock.json missing"
+          [ -f "app.js" ] && echo "✅ app.js exists" || echo "❌ app.js missing"
 
       - name: 🟢 Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: 'npm'
-          cache-dependency-path: 'backend/package-lock.json'
+          # UPDATE: Remove 'backend/' from cache path
+          cache-dependency-path: 'package-lock.json'
 
       - name: 📦 Install dependencies
         run: npm ci
