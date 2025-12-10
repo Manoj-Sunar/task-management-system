@@ -18,7 +18,7 @@ jobs:
     # ✅ RE-ADD DEFAULTS (files are in backend/)
     defaults:
       run:
-        working-directory: backend
+        working-directory: /backend
     
     services:
       redis:
