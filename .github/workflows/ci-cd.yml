@@ -14,6 +14,8 @@ env:
 jobs:
   lint-and-test:
     runs-on: ubuntu-latest
+    
+    # ✅ CORRECT: defaults must be indented under job
     defaults:
       run:
         working-directory: backend
@@ -33,22 +35,24 @@ jobs:
       - name: 📥 Checkout code
         uses: actions/checkout@v4
 
-      - name: 🔍 Debug - List Files
+      - name: 🔍 Debug - Verify Structure
         run: |
-          echo "Root directory structure:"
-          ls -la
+          echo "Current directory: $(pwd)"
           echo ""
-          echo "Backend directory structure:"
+          echo "Backend folder exists: $([ -d "backend" ] && echo "✅ YES" || echo "❌ NO")"
+          echo ""
+          echo "Files in backend folder:"
           ls -la backend/
           echo ""
-          echo "Checking for package-lock.json:"
-          find . -name "package-lock.json" -type f
+          echo "package.json exists: $([ -f "backend/package.json" ] && echo "✅ YES" || echo "❌ NO")"
+          echo "package-lock.json exists: $([ -f "backend/package-lock.json" ] && echo "✅ YES" || echo "❌ NO")"
 
       - name: 🟢 Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: 'npm'
+          # ✅ CORRECT: cache path must match working-directory
           cache-dependency-path: 'backend/package-lock.json'
 
       - name: 📦 Install dependencies
@@ -75,8 +79,9 @@ jobs:
       - name: 📊 Test Summary
         if: always()
         run: |
-          echo "✅ Test execution completed"
-          echo "Check logs above for details"
+          echo "=== Test Execution Summary ==="
+          echo "✅ GitHub Actions workflow completed"
+          echo "Check individual steps above for details"
 
   deploy:
     runs-on: ubuntu-latest

@@ -5,10 +5,11 @@ applyMocks();
 import { describe, it, expect, beforeAll, afterAll, afterEach } from "vitest";
 import request from "supertest";
 import { cleanupDatabase, closeTestEnv, setupTestEnv } from "../setup.js";
-import { app } from "../../app.js";
+
 import jwt from "jsonwebtoken";
 import { User } from "../../src/models/user.js";
 import mockCache from "../mocks/cache.mock.js"
+import { app } from "../../app.js";
 
 
 
@@ -36,8 +37,7 @@ describe('POST /api/v1/auth/register', () => {
         };
 
 
-        const response = await request(app)
-            .post("/api/v1/auth/register")
+        const response = await request(app).post("/api/v1/auth/register")
             .send(payload);
 
         expect(response.status).toBe(201);

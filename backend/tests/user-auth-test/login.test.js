@@ -4,9 +4,10 @@ applyMocks();
 import { describe, it, expect, vi, beforeAll, afterEach, afterAll } from 'vitest';
 import request from 'supertest';
 import { User } from '../../src/models/user';
-import { app } from '../../app';
+
 import { cleanupDatabase, closeTestEnv, setupTestEnv } from '../setup';
 import mockCache from "../mocks/cache.mock.js";
+import { app } from '../../app.js';
 
 describe("/api/v1/auth/login", () => {
 
@@ -51,7 +52,7 @@ describe("/api/v1/auth/login", () => {
 
 
     it("account is deactivated", async () => {
-        const payload = { name: 'Manoj', email: 'manoj@test.com', password: 'Password123', isActive: false };
+        const payload = { name: 'Manoj', email: 'manoj@test.com', password: 'Password123', isActive:false };
         await User.create(payload);
         const res = await request(app).post("/api/v1/auth/login").send({ email: "manoj@test.com", password: "Password123" });
         expect(res.status).toBe(401);

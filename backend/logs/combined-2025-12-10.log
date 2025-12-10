@@ -642,3 +642,44 @@
 {"level":"warn","message":"MongoDB disconnected","timestamp":"2025-12-10 10:22:23"}
 {"level":"info","message":"MongoDB connection closed.","timestamp":"2025-12-10 10:22:23"}
 {"level":"warn","message":"Redis connection ended","timestamp":"2025-12-10 10:22:23"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-01.2dkrtvq.mongodb.net","timestamp":"2025-12-10 19:14:01"}
+{"level":"info","message":"🗄️ Database connected successfully","timestamp":"2025-12-10 19:14:01"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-10 19:14:01"}
+{"level":"info","message":"Redis reconnecting... (attempt 0)","timestamp":"2025-12-10 19:14:01"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-10 19:14:01"}
+{"level":"info","message":"Redis reconnecting... (attempt 1)","timestamp":"2025-12-10 19:14:01"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-10 19:14:01"}
+{"level":"info","message":"Redis reconnecting... (attempt 2)","timestamp":"2025-12-10 19:14:01"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-10 19:14:01"}
+{"level":"info","message":"Redis reconnecting... (attempt 3)","timestamp":"2025-12-10 19:14:01"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-10 19:14:01"}
+{"level":"info","message":"Redis reconnecting... (attempt 4)","timestamp":"2025-12-10 19:14:02"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-10 19:14:02"}
+{"level":"info","message":"Redis reconnecting... (attempt 5)","timestamp":"2025-12-10 19:14:02"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-10 19:14:02"}
+{"level":"info","message":"Redis reconnecting... (attempt 6)","timestamp":"2025-12-10 19:14:03"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-10 19:14:03"}
+{"level":"info","message":"Redis reconnecting... (attempt 7)","timestamp":"2025-12-10 19:14:04"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-10 19:14:04"}
+{"level":"info","message":"Redis reconnecting... (attempt 8)","timestamp":"2025-12-10 19:14:05"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-10 19:14:05"}
+{"level":"info","message":"Redis reconnecting... (attempt 9)","timestamp":"2025-12-10 19:14:05"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-10 19:14:05"}
+{"level":"info","message":"Redis reconnecting... (attempt 10)","timestamp":"2025-12-10 19:14:06"}
+{"level":"warn","message":"Too many Redis reconnection attempts","timestamp":"2025-12-10 19:14:06"}
+{"code":"ECONNREFUSED","level":"error","message":"Redis Client Error:","stack":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1134:18)\n    at afterConnectMultiple (node:net:1715:7)","timestamp":"2025-12-10 19:14:06"}
+{"level":"error","message":"Redis connection failed: Too many retries","originalError":{},"socketError":{"code":"ECONNREFUSED"},"stack":"Error: Too many retries\n    at #shouldReconnect (E:\\task management\\backend\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js:138:20)\n    at #connect (E:\\task management\\backend\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js:178:54)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Class.connect (E:\\task management\\backend\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:556:9)\n    at async CacheService.connect (file:///E:/task%20management/backend/src/config/cache.js:52:13)\n    at async startServer (file:///E:/task%20management/backend/app.js:232:13)","timestamp":"2025-12-10 19:14:06"}
+{"level":"warn","message":"⚠️ Cache connection failed, continuing without cache: Too many retries","timestamp":"2025-12-10 19:14:06"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-10 19:14:06"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-10 19:14:06"}
+{"level":"info","message":"🗄️ Database: Connected","timestamp":"2025-12-10 19:14:06"}
+{"level":"info","message":"🗃️ Cache: Not Connected","timestamp":"2025-12-10 19:14:06"}
+{"level":"info","message":"Starting graceful shutdown...","timestamp":"2025-12-10 19:14:18"}
+{"level":"info","message":"MongoDB Connected: ac-nrit8du-shard-00-00.2dkrtvq.mongodb.net","timestamp":"2025-12-10 13:30:01"}
+{"level":"info","message":"🗄️ Database connected successfully","timestamp":"2025-12-10 13:30:01"}
+{"level":"info","message":"Redis connected successfully","timestamp":"2025-12-10 13:30:01"}
+{"level":"info","message":"🗃️ Cache connected successfully","timestamp":"2025-12-10 13:30:01"}
+{"level":"info","message":"🚀 Server running in development mode","timestamp":"2025-12-10 13:30:01"}
+{"level":"info","message":"📍 Listening on port 4000","timestamp":"2025-12-10 13:30:01"}
+{"level":"info","message":"🗄️ Database: Connected","timestamp":"2025-12-10 13:30:01"}
+{"level":"info","message":"🗃️ Cache: Connected","timestamp":"2025-12-10 13:30:01"}
