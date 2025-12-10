@@ -10,12 +10,12 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
+    "test:ci": "cross-env NODE_ENV=test USE_MONGODB_MEMORY=true vitest run --coverage --reporter=verbose",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "test:integration": "vitest run tests/integration/",
     "test:docker": "docker-compose -f docker-compose.test.yml up --abort-on-container-exit",
-    "test:ci": "cross-env USE_MONGODB_MEMORY=true npm run test:coverage",
     "lint": "eslint src/ tests/ --ext .js",
     "lint:fix": "eslint src/ tests/ --ext .js --fix",
     "format": "prettier --write \"src/**/*.js\" \"tests/**/*.js\"",

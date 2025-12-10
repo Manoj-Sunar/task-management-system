@@ -25,8 +25,10 @@ const __dirname = path.dirname(__filename);
 dotenv.config();
 
 // Validate required environment variables
+
 const requiredEnvVars = ['JWT_SECRET', 'MONGODB_URI'];
-if (process.env.NODE_ENV === 'production') {
+// Instead of checking only production, check based on Redis usage
+if (process.env.REDIS_URL) {
     requiredEnvVars.push('REDIS_URL');
 }
 
