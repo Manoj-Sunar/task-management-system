@@ -35,7 +35,6 @@ describe("/api/v1/auth/login", () => {
         expect(res.body.success).toBe(true);
         expect(res.body.data.token).toBeDefined();
         expect(res.body.data.user).toBeDefined();
-
         expect(mockCache.set).toHaveBeenCalled();
 
 

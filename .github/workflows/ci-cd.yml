@@ -10,6 +10,9 @@ env:
   NODE_ENV: test
   PORT: 4000
   USE_MONGODB_MEMORY: true
+  JWT_SECRET: ${{ secrets.JWT_SECRET }}
+  REDIS_HOST: localhost
+  REDIS_PORT: 6379
 
 jobs:
   lint-and-test:
@@ -17,7 +20,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: backend  # all commands run in backend/
+        working-directory: backend
 
     services:
       redis:
@@ -38,10 +41,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: 'npm'
+          cache: "npm"
           cache-dependency-path: backend/package-lock.json
 
-      # Install dependencies including devDependencies (eslint-plugin-vitest)
       - name: 📦 Install dependencies
         run: npm ci
 
@@ -55,6 +57,7 @@ jobs:
         if: always()
         run: echo "CI Completed ✔"
 
+
   deploy:
     runs-on: ubuntu-latest
     needs: lint-and-test
@@ -62,7 +65,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: backend  # deploy from backend folder
+        working-directory: backend
 
     steps:
       - name: 📥 Checkout code
