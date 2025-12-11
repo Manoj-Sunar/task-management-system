@@ -20,23 +20,18 @@ env:
 jobs:
   security-audit:
     runs-on: ubuntu-latest
-
     defaults:
       run:
         working-directory: backend
-
     steps:
       - name: 📥 Checkout code
         uses: actions/checkout@v4
-
       - name: 🟢 Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
-
       - name: 🕵️ NPM Audit Security Scan
         run: npm audit --audit-level=high || true
-
       - name: 🛡️ Check for secret leaks
         uses: zricethezav/gitleaks-action@v2
 
@@ -46,37 +41,64 @@ jobs:
   build-check:
     runs-on: ubuntu-latest
     needs: security-audit
-
     defaults:
       run:
         working-directory: backend
-
     steps:
       - name: 📥 Checkout code
         uses: actions/checkout@v4
-
       - name: 🟢 Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
-
       - name: 📦 Install dependencies (cached)
-        run: npm ci
-
-      - name: 🏗️ Build Check (Ensures app boots)
+        uses: bahmutov/npm-install@v1
+        with:
+          working-directory: backend
+      - name: 🏗️ Build Check
         run: node --check app.js
 
 # ==========================
-# 3️⃣ LINT + TEST (YOUR ORIGINAL)
+# 3️⃣ UNIT TESTS (No external dependencies)
 # ==========================
-  lint-and-test:
+  unit-tests:
     runs-on: ubuntu-latest
     needs: build-check
-
     defaults:
       run:
         working-directory: backend
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "npm"
+          cache-dependency-path: backend/package-lock.json
+      - name: 📦 Install dependencies
+        run: npm ci
+      - name: 🔍 Run Linter
+        run: npm run lint
+      - name: 🧪 Run Unit Tests Only
+        run: npm run test:unit
+      - name: 📊 Unit Test Coverage Report
+        run: npm run test:coverage
+      - name: 🚨 Upload Coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          directory: backend/coverage
+          flags: unittests
 
+# ==========================
+# 4️⃣ INTEGRATION TESTS
+# ==========================
+  integration-tests:
+    runs-on: ubuntu-latest
+    needs: unit-tests
+    defaults:
+      run:
+        working-directory: backend
     services:
       redis:
         image: redis:7-alpine
@@ -87,48 +109,38 @@ jobs:
           --health-interval 10s
           --health-timeout 5s
           --health-retries 5
-
     steps:
       - name: 📥 Checkout code
         uses: actions/checkout@v4
-
       - name: 🟢 Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: "npm"
           cache-dependency-path: backend/package-lock.json
-
       - name: 📦 Install dependencies
         run: npm ci
-
-      - name: 🔍 Run Linter
-        run: npm run lint
-
-      - name: 🧪 Run Vitest
-        run: npm run test:ci
-
-      - name: 📊 CI Summary
+      - name: 🧪 Run Integration Tests
+        run: npm run test:integration
+      - name: 📈 Test Results
         if: always()
-        run: echo "CI Completed ✔"
-
+        run: |
+          echo "Integration Tests Summary:"
+          echo "These tests verify database, Redis, and API integrations"
 
 # ==========================
-# 4️⃣ DEPLOY (YOUR ORIGINAL)
+# 5️⃣ DEPLOY
 # ==========================
   deploy:
     runs-on: ubuntu-latest
-    needs: lint-and-test
+    needs: integration-tests
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-
     defaults:
       run:
         working-directory: backend
-
     steps:
       - name: 📥 Checkout code
         uses: actions/checkout@v4
-
       - name: 🚀 Deploy to Render
         uses: johnbeynon/render-deploy-action@v0.0.8
         with:
