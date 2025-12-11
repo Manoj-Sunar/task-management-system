@@ -36,6 +36,9 @@ authRouter.post('/login',validate([
     body('password').notEmpty().withMessage('Password is required'),
 ]), login);
 
+
+
+
 // Protected routes
 authRouter.use(protect);
 

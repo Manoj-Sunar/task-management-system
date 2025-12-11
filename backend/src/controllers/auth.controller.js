@@ -12,8 +12,7 @@ const authService = new AuthService();
 
 
 export const register = catchAsync(async (req, res) => {
-
-
+  console.log(req.body);
   validateRegister(req.body);
 
   const result = await authService.register(req.body);
