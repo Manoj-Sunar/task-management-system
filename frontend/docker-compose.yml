@@ -1,0 +1,9 @@
+services:
+  next-frontend:
+    build: .
+    container_name: next_app
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    restart: always
