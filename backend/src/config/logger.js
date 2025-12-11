@@ -2,7 +2,7 @@ import winston from "winston";
 import 'winston-daily-rotate-file';
 
 const { createLogger, format, transports } = winston;
-const { combine, timestamp, errors, json, colorize, simple, printf } = format;
+const { combine, timestamp, errors, json, colorize, printf } = format;
 
 // Custom format for console
 const consoleFormat = printf(({ level, message, timestamp, stack }) => {

@@ -257,7 +257,7 @@ class TaskService {
             return cachedStats;
         }
 
-        const today = dayjs().startOf('day');
+        
         const weekAgo = dayjs().subtract(7, 'day').startOf('day');
 
         const [
